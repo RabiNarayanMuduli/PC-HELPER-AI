@@ -2,7 +2,7 @@
 import json
 from groq import Groq
 
-client = Groq(api_key="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")
+client = Groq(api_key="gsk_PsWvVo84hZWoVMCl0dsmWGdyb3FYbIgHP5ZRUKpq5Sb6ncQlf3MZ111")
 
 def get_pc_action(user_command):
     """
@@ -58,3 +58,4 @@ You are a virtual assistant with playful tone.
             "type": "chat",
             "response": "Sorry sir, I had trouble understanding that."
         }
+
